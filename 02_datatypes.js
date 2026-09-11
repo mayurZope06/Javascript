@@ -4,9 +4,9 @@
 
 console.log(3 + 3); // code readability should be high
 
-console.log("Hitesh");
+console.log("Mayur");
 
-let name = "hitesh";
+let name = "Mayur";
 let age = 18;
 let isLoggedIn = false;
 let state;
@@ -19,7 +19,7 @@ let state;
 // undefined =>
 // symbol => unique
 
-// object
+// objectṣ
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object

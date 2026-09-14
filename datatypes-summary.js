@@ -23,7 +23,7 @@ console.log(id === anotherId);
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
   name: "hitesh",
-  age: 22, 
+  age: 22,
 };
 
 const myFunction = function () {
@@ -33,3 +33,26 @@ const myFunction = function () {
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// Stack Memory -> (Primitive)
+// Heap memory -> (Non - Primitive)
+
+let myYoutubeName = "Mayur Vlogs";
+let anotherName = myYoutubeName;
+anotherName = "Chai aur Code";
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let user1 = {
+  email: "user@google.com",
+  upi: "user@ybl",
+};
+
+let user2 = user1;
+
+user2.email = "mayur@google.com";
+
+console.log(user1.email);
+console.log(user2.email);
+

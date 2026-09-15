@@ -22,7 +22,7 @@ console.log(id === anotherId);
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
-  name: "hitesh",
+  name: "mayur",
   age: 22,
 };
 
@@ -55,4 +55,3 @@ user2.email = "mayur@google.com";
 
 console.log(user1.email);
 console.log(user2.email);
-

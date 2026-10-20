@@ -63,7 +63,7 @@ handleObject({
 const myNewArray = [200, 400, 100, 600]
 
 function returnSecondValue(getArray){
-    return getArray[1]
+    return getArray[1] 
 }
 
 // console.log(returnSecondValue(myNewArray));
